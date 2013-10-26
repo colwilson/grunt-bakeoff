@@ -18,6 +18,8 @@ module.exports = function(grunt) {
             ready: [
                 '<%= output_dir_templates %>', 
                 '<%= output_dir_resources %>', 
+                '<%= output_dir_grunticons %>', 
+                '<%= output_dir_fonts %>', 
                 '<%= tmp_dir %>'
             ]
         }, copy: {
